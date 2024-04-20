@@ -29,11 +29,11 @@ def get_gemini_response(question):
 
 ##initialize our streamlit app
 
-st.set_page_config(page_title="Q&A Demo")
+st.set_page_config(page_title="AI chat")
 
-st.header("Gemini Application")
+st.header(" A Journey into the World of Generative AI Chat ")
 
-input=st.text_input("Input: ",key="input")
+input=st.text_input("Input: ",key="Type your question")
 
 
 submit=st.button("Ask the question")
