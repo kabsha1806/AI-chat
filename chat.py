@@ -33,7 +33,7 @@ st.set_page_config(page_title="AI chat")
 
 st.header(" A Journey into the World of Generative AI Chat ")
 
-input=st.text_input("Input: ",key="Type your question")
+input=st.text_input("Type your question: ",key="input")
 
 
 submit=st.button("Ask the question")
